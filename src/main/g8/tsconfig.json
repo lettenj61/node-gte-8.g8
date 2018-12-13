@@ -1,6 +1,7 @@
 {
-  "include": ["src"],
+  "include": ["lib/**/*.js"],
   "compilerOptions": {
+    "noEmit": true,
     "allowJs": true
   }
 }
